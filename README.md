@@ -1,17 +1,20 @@
 ### Project 3
 
-##### Front End
+#### Front End
 - Live Site Link: https://project3frend.onrender.com (Render.com)
 - Github Link:  https://github.com/SWIRTH9092/project3_frontend
 
-##### Back End
+#### Back End
 - Live Site Link: https://project3bkend.onrender.com
 - Github Link: https://github.com/SWIRTH9092/project3_backend
 
-##### Group Members
+#### Group Members
 - Ayelet Hillel
 - Corey Hall
 - Sue Wirth
+
+#### Wireframes
+<img src="https://i.imgur.com/0EHXvRH.png" alt="Front-end Component Tree" title="Component Tree" width="60%"/>
 
 ##### Dependencies Used
 - Node
@@ -24,7 +27,7 @@
 ##### Component Tree
 <img src="https://i.imgur.com/Rthjvri.jpg" alt="Front-end Component Tree" title="Component Tree" width="90%"/>
 
-##### Component List
+#### Component List
 - createAction.js
 - updateAction.js
 - deleteAction.js
