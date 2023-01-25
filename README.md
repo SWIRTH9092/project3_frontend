@@ -8,6 +8,9 @@
 - Live Site Link: https://project3bkend.onrender.com
 - Github Link: https://github.com/SWIRTH9092/project3_backend
 
+#### Trello Board 
+- Link:  https://trello.com/b/sGEdNiOW/around-the-world-trello
+
 #### Group Members
 - Ayelet Hillel
 - Corey Hall
