@@ -13,7 +13,7 @@ import { indexLoader } from "./loaders/indexLoader"
 import { showLoader } from "./loaders/showLoader"
 import { actionsCreate} from "./actions/actionsCreate"
 import { actionsUpdate } from "./actions/actionsUpdate"
-// import { deleteAction } from "./actions/actionsDelete"
+import { actionsDelete } from "./actions/actionsDelete"
 
 //---------------------------------------
 //   Router Paths
@@ -27,7 +27,7 @@ const router = createBrowserRouter(
               <Route path=":id" element={<Show />} loader={showLoader} />
               <Route path="create" action={actionsCreate} />
               <Route path="update/:id" action={actionsUpdate} /> 
-              {/* <Route path="delete/:id" action={deleteAction} /> */}
+              <Route path="delete/:id" action={actionsDelete} /> 
           </Route>)
 )
 
