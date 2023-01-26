@@ -1,4 +1,5 @@
 import { useLoaderData, Form } from "react-router-dom"
+// import { TextField } from '@mui/material';
 
 function Show(props) {
     const place = useLoaderData()
@@ -11,9 +12,9 @@ function Show(props) {
 
         <h2>Update {place.title}</h2>
         <Form action={`/update/${place._id}`} method="post">
-          <input type="input" name="title" placeholder="place title"/>
-          <input type="input" name="category" placeholder="place category"/>
-          <input type="input" name="image" placeholder="place picture" />
+          <input type="input" name="title" placeholder="place title" defaultValue={place.title}/>
+          <input type="input" name="category" placeholder="place category" defaultValue={place.category}/>
+          <input type="input" name="image" placeholder="place picture" defaultValue={place.url}/>
           <input type="submit" value={`update ${place.title}`}/>
         </Form>
 
