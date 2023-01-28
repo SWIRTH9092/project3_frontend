@@ -33,7 +33,7 @@ form {
   flex-direction: column;
   outline: 0;
   margin: 0 auto; 
-width:250px;
+  width:250px;
 
 
 } 
@@ -61,10 +61,15 @@ button {
   cursor: pointer;
   transition: 0.1s ease-in;
   margin: 0 auto; 
-  width:250px;
+  width: 250px;
 }
 
 button:hover {
   background-color: palevioletred;
   color: white;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
 }
